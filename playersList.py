@@ -30,7 +30,9 @@ st.set_page_config(page_title='TyCC Club Teams List', page_icon=':Cricket:')
 st.title('TyCC Club Teams List')
 
 # display the image using the link
-image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.jpg"
+# image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.jpg"
+image_url = "https://raw.githubusercontent.com/yendada/MyClubTyCC/main/TYCC_logo.jpg"
+
 st.image(image_url, width=300)
 
 # Display the data and fixtures as a table
