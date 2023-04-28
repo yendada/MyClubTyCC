@@ -4,8 +4,10 @@
 import streamlit as st
 
 
-# Display the club logo
-st.image('TYCC_logo.png', use_column_width=True)
+# Display the club logo using Image link
+
+image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.png"
+st.image(image_url, width=300)
 
 
 # Define the data as a dictionary of lists
