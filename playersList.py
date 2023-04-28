@@ -14,7 +14,7 @@ data = {
 
 # Set the page title and heading
 st.set_page_config(page_title='TyCC Club Teams List', page_icon=':Cricket:')
-st.title('Club Teams List')
+st.title('TyCC Club Teams List')
 
 # Display the data as a table
 st.table(data)
