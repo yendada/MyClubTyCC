@@ -3,6 +3,11 @@
 
 import streamlit as st
 
+
+# Display the club logo
+st.image('TYCC_logo.png', use_column_width=True)
+
+
 # Define the data as a dictionary of lists
 data = {
     'Team 1': ['Suresh', 'Avi', 'Shirish'],
