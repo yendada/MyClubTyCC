@@ -29,6 +29,10 @@ fixtures = {
 st.set_page_config(page_title='TyCC Club Teams List', page_icon=':Cricket:')
 st.title('TyCC Club Teams List')
 
+# display the image using the link
+image_url = "<image link from the git repository>"
+st.image(image_url, width=300)
+
 # Display the data and fixtures as a table
 for team, players in data.items():
     st.write(f"### {team}")
@@ -36,7 +40,3 @@ for team, players in data.items():
     st.write(f"Playing Fixtures: [{team}]({fixtures[team]})")
 
 
-# Display the club logo using Image link
-
-image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.png"
-st.image(image_url, width=300)
