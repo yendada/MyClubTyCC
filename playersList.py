@@ -4,12 +4,6 @@
 import streamlit as st
 
 
-# Display the club logo using Image link
-
-image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.png"
-st.image(image_url, width=300)
-
-
 # Define the data as a dictionary of lists
 data = {
     'Team 1': ['Suresh', 'Avi', 'Shirish'],
@@ -40,3 +34,9 @@ for team, players in data.items():
     st.write(f"### {team}")
     st.table(players)
     st.write(f"Playing Fixtures: [{team}]({fixtures[team]})")
+
+
+# Display the club logo using Image link
+
+image_url = "https://github.com/yendada/MyClubTyCC/blob/main/TYCC_logo.png"
+st.image(image_url, width=300)
